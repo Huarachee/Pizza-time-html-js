@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pizza Time</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg" href="images/logo-icon.svg">
+</head>
+
+<body>
+
+  <!-- Basket--start -->
+  <div class="basket-bg">
+    <div class="basket__modals">
+      <button class="basket__close close" type="button">
+        <img class="close-img" src="images/modal-close.svg" alt="">
+      </button>
+      <div class="modals-info__inner">
+        <h3 class="basket__title">Корзина</h3>
+        <div class="modals__info-text">
+          <div class="basket__inner">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Basket--end -->
+
+  <!-- Pizza-modals--start--1 -->
+  <div class="popup-bg--1 popup-bg">
+    <div class="pizza-info__modals">
+      <button class="close--1 close" type="button">
+        <img class="close-img" src="images/modal-close.svg" alt="">
+      </button>
+      <div class="modals-info__inner">
+        <img class="modals-img" src="images/box-images--1.jpg" alt="">
+        <div class="modals__info-text">
+          <h3 class="modals__title">Пицца "Мясная"</h3>
+          <div class="composition-inner">
+            <h5 class="composition-title">Состав:</h5>
+            <ul class="composition-list">
+              <li class="composition-item">Ветчина</li>
+              <li class="composition-item">Пепперони</li>
+              <li class="composition-item">Томатный соус</li>
+              <li class="composition-item">Острая чоризо</li>
+              <li class="composition-item">Моцарелла</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modals-price">
+        <p class="price-box">Цена: 350р.</p>
+      </div>
+      <button class="modal-btn">В корзину</button>
+    </div>
+  </div>
+  <!-- Pizza-modals--end--1 -->
+
+  <!-- Pizza-modals--start--2 -->
+  <div class="popup-bg--2 popup-bg">
+    <div class="pizza-info__modals">
+      <button class="close--2 close" type="button">
+        <img class="close-img" src="images/modal-close.svg" alt="">
+      </button>
+      <div class="modals-info__inner">
+        <img class="modals-img" src="images/box-images--2.jpg" alt="">
+        <div class="modals__info-text">
+          <h3 class="modals__title">Пицца "Овощная"</h3>
+          <div class="composition-inner">
+            <h5 class="composition-title">Состав:</h5>
+            <ul class="composition-list">
+              <li class="composition-item composition-item--2">Итальянские травы</li>
+              <li class="composition-item composition-item--2">Томатный соус</li>
+              <li class="composition-item composition-item--2">Сыр "Брынза"</li>
+              <li class="composition-item composition-item--2">Шампиньоны</li>
+              <li class="composition-item composition-item--2">Моцарелла</li>
+              <li class="composition-item composition-item--2">Маслины</li>
+              <li class="composition-item composition-item--2">Томаты</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modals-price">
+        <p class="price-box">Цена: 300р.</p>
+      </div>
+      <button class="modal-btn">В корзину</button>
+    </div>
+  </div>
+  <!-- Pizza-modals--end--2 -->
+
+  <!-- Pizza-modals--start--3 -->
+  <div class="popup-bg--3 popup-bg">
+    <div class="pizza-info__modals">
+      <button class="close--3 close" type="button">
+        <img class="close-img" src="images/modal-close.svg" alt="">
+      </button>
+      <div class="modals-info__inner">
+        <img class="modals-img" src="images/box-images--3.jpg" alt="">
+        <div class="modals__info-text">
+          <h3 class="modals__title">Пицца "Карбонара"</h3>
+          <div class="composition-inner">
+            <h5 class="composition-title">Состав:</h5>
+            <ul class="composition-list">
+              <li class="composition-item composition-item--3">Бекон</li>
+              <li class="composition-item composition-item--3">Сыры чеддер и пармезан</li>
+              <li class="composition-item composition-item--3">Моцарелла</li>
+              <li class="composition-item composition-item--3">Томаты черри</li>
+              <li class="composition-item composition-item--3">Красный лук</li>
+              <li class="composition-item composition-item--3">Соус альфредо</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modals-price">
+        <p class="price-box">Цена: 400р.</p>
+      </div>
+      <button class="modal-btn">В корзину</button>
+    </div>
+  </div>
+  <!-- Pizza-modals--end--3 -->
+
+  <!-- Pizza-modals--start--4 -->
+  <div class="popup-bg--4 popup-bg">
+    <div class="pizza-info__modals">
+      <button class="close--4 close" type="button">
+        <img class="close-img" src="images/modal-close.svg" alt="">
+      </button>
+      <div class="modals-info__inner">
+        <img class="modals-img" src="images/box-images--4.jpg" alt="">
+        <div class="modals__info-text">
+          <h3 class="modals__title">Пицца "Микс"</h3>
+          <div class="composition-inner">
+            <h5 class="composition-title">Состав:</h5>
+            <ul class="composition-list">
+              <li class="composition-item composition-item--4">Бекон</li>
+              <li class="composition-item composition-item--4">Ветчина</li>
+              <li class="composition-item composition-item--4">Болгарский перец</li>
+              <li class="composition-item composition-item--4">Курица</li>
+              <li class="composition-item composition-item--4">Лук</li>
+              <li class="composition-item composition-item--4">Соус BBQ</li>
+              <li class="composition-item composition-item--4">Сыр Моцарелла</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modals-price">
+        <p class="price-box">Цена: 550р.</p>
+      </div>
+      <button class="modal-btn">В корзину</button>
+    </div>
+  </div>
+  <!-- Pizza-modals--end--4 -->
+
+  <!-- Pizza-modals--start--5 -->
+  <div class="popup-bg--5 popup-bg">
+    <div class="pizza-info__modals">
+      <button class="close--5 close" type="button">
+        <img class="close-img" src="images/modal-close.svg" alt="">
+      </button>
+      <div class="modals-info__inner">
+        <img class="modals-img" src="images/box-images--5.jpg" alt="">
+        <div class="modals__info-text">
+          <h3 class="modals__title">Пицца "Бюджетная"</h3>
+          <div class="composition-inner">
+            <h5 class="composition-title">Состав:</h5>
+            <ul class="composition-list">
+              <li class="composition-item">Сыр "Российский"</li>
+              <li class="composition-item">Докторская колбаса</li>
+              <li class="composition-item">Томаты</li>
+              <li class="composition-item">Травы</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modals-price">
+        <p class="price-box">Цена: 180р.</p>
+      </div>
+      <button class="modal-btn">В корзину</button>
+    </div>
+  </div>
+  <!-- Pizza-modals--end--5 -->
+
+  <!-- Pizza-modals--start--6 -->
+  <div class="popup-bg--6 popup-bg">
+    <div class="pizza-info__modals">
+      <button class="close--6 close" type="button">
+        <img class="close-img" src="images/modal-close.svg" alt="">
+      </button>
+      <div class="modals-info__inner">
+        <img class="modals-img" src="images/box-images--6.jpg" alt="">
+        <div class="modals__info-text">
+          <h3 class="modals__title">Пицца "Классическая"</h3>
+          <div class="composition-inner">
+            <h5 class="composition-title">Состав:</h5>
+            <ul class="composition-list">
+              <li class="composition-item">Ветчина</li>
+              <li class="composition-item">Моцарелла</li>
+              <li class="composition-item">Соус альфредо</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modals-price">
+        <p class="price-box">Цена: 290р.</p>
+      </div>
+      <button class="modal-btn">В корзину</button>
+    </div>
+  </div>
+  <!-- Pizza-modals--end--6 -->
+
+  <!-- Pizza-modals--start--7 -->
+  <div class="popup-bg--7 popup-bg">
+    <div class="pizza-info__modals">
+      <button class="close--7 close" type="button">
+        <img class="close-img" src="images/modal-close.svg" alt="">
+      </button>
+      <div class="modals-info__inner">
+        <img class="modals-img" src="images/drink-box__images-1.jpg" alt="">
+        <div class="modals__info-text">
+          <h3 class="modals__title">Газировка</h3>
+          <div class="composition-inner">
+            <h5 class="composition-title">Состав:</h5>
+            <ul class="composition-list">
+              <li class="composition-item">Ветчина</li>
+              <li class="composition-item">Пепперони</li>
+              <li class="composition-item">Томатный соус</li>
+              <li class="composition-item">Острая чоризо</li>
+              <li class="composition-item">Моцарелла</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modals-price">
+        <p class="price-box">Цена: От 119р.</p>
+      </div>
+      <button class="modal-btn">В корзину</button>
+    </div>
+  </div>
+  <!-- Pizza-modals--end--7 -->
+
+  <!-- Pizza-modals--start--8 -->
+  <div class="popup-bg--8 popup-bg">
+    <div class="pizza-info__modals">
+      <button class="close--8 close" type="button">
+        <img class="close-img" src="images/modal-close.svg" alt="">
+      </button>
+      <div class="modals-info__inner">
+        <img class="modals-img" src="images/drink-box__images-2.jpg" alt="">
+        <div class="modals__info-text">
+          <h3 class="modals__title">Кофе</h3>
+          <div class="composition-inner">
+            <h5 class="composition-title">Состав:</h5>
+            <ul class="composition-list">
+              <li class="composition-item">Ветчина</li>
+              <li class="composition-item">Пепперони</li>
+              <li class="composition-item">Томатный соус</li>
+              <li class="composition-item">Острая чоризо</li>
+              <li class="composition-item">Моцарелла</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modals-price">
+        <p class="price-box">Цена: От 120р.</p>
+      </div>
+      <button class="modal-btn">В корзину</button>
+    </div>
+  </div>
+  <!-- Pizza-modals--end--8 -->
+
+  <!-- Pizza-modals--start--9 -->
+  <div class="popup-bg--9 popup-bg">
+    <div class="pizza-info__modals">
+      <button class="close--9 close" type="button">
+        <img class="close-img" src="images/modal-close.svg" alt="">
+      </button>
+      <div class="modals-info__inner">
+        <img class="modals-img" src="images/drink-box__images-3.jpg" alt="">
+        <div class="modals__info-text">
+          <h3 class="modals__title">Коктейль</h3>
+          <div class="composition-inner">
+            <h5 class="composition-title">Состав:</h5>
+            <ul class="composition-list">
+              <li class="composition-item">Ветчина</li>
+              <li class="composition-item">Пепперони</li>
+              <li class="composition-item">Томатный соус</li>
+              <li class="composition-item">Острая чоризо</li>
+              <li class="composition-item">Моцарелла</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modals-price">
+        <p class="price-box">Цена: От 350р.</p>
+      </div>
+      <button class="modal-btn">В корзину</button>
+    </div>
+  </div>
+  <!-- Pizza-modals--end--9 -->
+
+  <header class="header">
+    <div class="container">
+      <div class="header__logo-mobile">
+        <img class="logo__img" src="images/pizza-time__logo.svg" alt="">
+      </div>
+      <div class="header__top">
+        <div class="header__logo logo">
+          <img class="logo__img" src="images/pizza-time__logo.svg" alt="">
+        </div>
+        <menu class="header__menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a class="menu__item-link slider-btn" href="#pizza-title">Пицца</a></li>
+            <li class="menu__item"><a class="menu__item-link slider-btn" href="#drink-title">Напитки</a></li>
+            <li class="menu__item"><a class="menu__item-link slider-btn" href="#">Контакты</a></li>
+            <li class="menu__item"><a class="menu__item-link slider-btn" href="#">О нас</a></li>
+          </ul>
+          <div class="header__buttons">
+            <button class="theme-btn dark-theme">Тёмная тема</buttons>
+            <button class="theme-btn light-theme">Светлая тема</buttons>
+            <button class="basket">Корзина</button>
+          </div>
+        </menu>
+      </div>
+      <div class="header__slider">
+
+        <div class="slide-1 slide">
+
+          <div class="slide__text-box">
+            <div class="line-top"></div>
+            <p class="slider-text" id="dark-theme">
+              Никаких
+              новомодных суши.
+              Только пицца!
+            </p>
+            <button class="btn"><a class="slider-btn" href="#pizza-title">Заказать</a></button>
+            <div class="line-bottom"></div>
+          </div>
+
+          <div class="slide__img-box">
+            <img class="slider__images" src="images/slide-img--1.jpg" alt="">
+          </div>
+
+        </div>
+
+        <div class="slide-2 slide">
+
+          <div class="slide__text-box">
+            <div class="line-top"></div>
+            <p class="slider-text slider-text--2">
+              Мы знаем всё
+              о пицце! <br>
+              <span class="sub-text">
+                (и как правильно её готовить)
+              </span>
+            </p>
+            <button class="btn"><a class="slider-btn" href="#">Заказать</a></button>
+            <div class="line-bottom"></div>
+          </div>
+
+          <div class="slide__img-box">
+            <img class="slider__images" src="images/slide-img--2.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="slide-3 slide">
+
+          <div class="slide__text-box">
+            <div class="line-top"></div>
+            <p class="slider-text">
+              Быстрая доставка
+              по городу!
+            </p>
+            <button class="btn"><a class="slider-btn" href="#">Заказать</a></button>
+            <div class="line-bottom"></div>
+          </div>
+
+          <div class="slide__img-box">
+            <img class="slider__images" src="images/slide-img--3.jpg" alt="">
+          </div>
+
+        </div>
+
+        <div class="slide-4 slide">
+
+          <div class="slide__text-box">
+            <div class="line-top"></div>
+            <p class="slider-text slider-text--4">
+              Акция
+              “Чем больше съешь,
+              тем больше скидка!”
+            </p>
+            <button class="btn"><a class="slider-btn" href="#">Заказать</a></button>
+            <div class="line-bottom"></div>
+          </div>
+
+          <div class="slide__img-box">
+            <img class="slider__images" src="images/slide-img--4.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <section class="pizza-info">
+    <div class="container">
+      <h3 class="title-info" id="pizza-title">Все пиццы:</h3>
+
+
+      <div class="info__inner">
+        <div class="pizza-info__box-list">
+
+
+          <div class="pizza-info__box box-info">
+            <img class="box-img" src="images/box-images--1.jpg" alt="">
+            <h5 class="box-title">Пицца "Мясная"</h5>
+            <div class="price-box">350 р.</div>
+            <div class="btn-container">
+              <button class="detailed-btn--1 button">Подробнее</button>
+            </div>
+          </div>
+
+
+          <div class="pizza-info__box box-info">
+            <img class="box-img" src="images/box-images--2.jpg" alt="">
+            <h5 class="box-title">Пицца "Овощная"</h5>
+            <div class="price-box">300 р.</div>
+            <div class="btn-container">
+              <button class="detailed-btn--2 button">Подробнее</button>
+            </div>
+          </div>
+
+          <div class="pizza-info__box box-info">
+            <img class="box-img" src="images/box-images--3.jpg" alt="">
+            <h5 class="box-title">Пицца "Карбонара"</h5>
+            <div class="price-box">400 р.</div>
+            <div class="btn-container">
+              <button class="detailed-btn--3 button">Подробнее</button>
+            </div>
+          </div>
+
+          <div class="pizza-info__box box-info">
+            <img class="box-img" src="images/box-images--4.jpg" alt="">
+            <h5 class="box-title">Пицца "Микс"</h5>
+            <div class="price-box">550 р.</div>
+            <div class="btn-container">
+              <button class="detailed-btn--4 button">Подробнее</button>
+            </div>
+          </div>
+
+          <div class="pizza-info__box box-info">
+            <img class="box-img" src="images/box-images--5.jpg" alt="">
+            <h5 class="box-title">Пицца "Бюджетная"</h5>
+            <div class="price-box">180 р.</div>
+            <div class="btn-container">
+              <button class="detailed-btn--5 button">Подробнее</button>
+            </div>
+          </div>
+
+          <div class="pizza-info__box box-info">
+            <img class="box-img" src="images/box-images--6.jpg" alt="">
+            <h5 class="box-title">Пицца "Классическая"</h5>
+            <div class="price-box">340 р.</div>
+            <div class="btn-container">
+              <button class="detailed-btn--6 button">Подробнее</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="drink-info">
+    <div class="container">
+      <h3 class="title-info" id="drink-title">Все напитки:</h3>
+
+      <div class="info__inner">
+        <div class="drink-info__box-list">
+
+          <div class="drink-info__box box-info">
+            <img class="box-img" src="images/drink-box__images-1.jpg" alt="">
+            <h5 class="box-title">Газировка</h5>
+            <div class="price-box">От 119 р.</div>
+            <div class="btn-container">
+              <button class="detailed-btn--7 button">Подробнее</button>
+            </div>
+          </div>
+
+          <div class="drink-info__box box-info">
+            <img class="box-img" src="images/drink-box__images-2.jpg" alt="">
+            <h5 class="box-title">Кофе</h5>
+            <div class="price-box">от 120 р.</div>
+            <div class="btn-container">
+              <button class="detailed-btn--8 button">Подробнее</button>
+            </div>
+          </div>
+
+          <div class="drink-info__box box-info">
+            <img class="box-img" src="images/drink-box__images-3.jpg" alt="">
+            <h5 class="box-title">Коктейль</h5>
+            <div class="price-box">от 350 р.</div>
+            <div class="btn-container">
+              <button class="detailed-btn--9 button">Подробнее</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about_us">
+    <div class="container">
+      <h3 class="title-info">О нас:</h3>
+
+      <div class="info__inner">
+        <div class="about_us-box about_us-box--top" data-aos="fade-left">
+          <div class="about_us-box--text">
+            <div class="about_us__line-top"></div>
+            <h4 class="about_us-text">
+              Мы - компания,
+              которая пришла
+              делать качественную
+              пиццу.
+              От людей - для людей!</h4>
+            <div class="about_us__line-bottom"></div>
+          </div>
+          <div class="about_us-img">
+            <img class="about_us-images" src="images/about__us-img--1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="info__inner">
+        <div class="about_us-box" data-aos="fade-right">
+          <div class="about_us-box--text">
+            <div class="about_us__line-top"></div>
+            <h4 class="about_us-text">
+              Только у нас вы найдете
+              самую вкусную
+              и дешевую пиццу.
+              (Студентам
+              и пожилым - скидка!)
+            </h4>
+            <div class="about_us__line-bottom"></div>
+          </div>
+          <div class="about_us-img">
+            <img class="about_us-images" src="images/about__us-img--2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer__logo logo">
+          <img class="logo__img footer__logo-images" src="images/pizza-time__logo.svg" alt="">
+        </div>
+        <div class="copy">© Все права защищены</div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/modals.js"></script>
+</body>
+
+</html>
